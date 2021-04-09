@@ -18,7 +18,7 @@
 			}
 		}
 		.box {
-			background-image: linear-gradient(to top right, #5825ec, #2c2460); 
+			background-image: linear-gradient(to top right, #5825ec, #261b61); 
 			position: absolute;
 			height: 100%;
 			width: 100%;
@@ -73,13 +73,13 @@
 		#hidden-fly {
 			top: 2em;
 			width: 1em;
-			rotate: 90deg;
 			margin-left: -2em;
 			position: absolute;
+			transform: rotate(90deg);
 		}
 		#hidden-fly.move {
 			transition: all 2s ease-in-out;
-			transform: translate(0, -110vw);
+			transform: rotate(90deg) translate(0, -110vw);
 		}
 		.message {
 			display: none;
