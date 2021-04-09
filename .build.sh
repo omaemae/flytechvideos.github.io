@@ -9,7 +9,7 @@ export SOURCE_DATE_EPOCH=$(git log -1 --pretty=%ct)
 export docroot=$(mktemp -d)
 
 ## Build
-yarn run build
+yarn run build:production
 
 ## Upload to GitHub Pages
 git config --global user.name "${GITHUB_ACTOR}"
@@ -28,6 +28,8 @@ cat > README.md <<EOF
 # GitHub Pages data
 Not much else here.
 EOF
+
+echo "flytech.video" > CNAME
 
 git add .
 
