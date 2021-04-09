@@ -24,7 +24,7 @@ export default class App extends React.Component {
     render() {
         return (
             <div css={tw`grid w-full h-full align-content[center] justify-center p-4`}>
-                <div css={tw`block md:flex align-items[center]`}>
+                <div css={tw`block md:flex align-items[center] mx-auto`}>
                     <div css={tw`flex justify-center`}>
                         <img css={[tw`h-auto`, 'width: 15rem']} alt="Fly" src={FlySVG}/>
                     </div>
