@@ -2,6 +2,8 @@
 
 # This script is ONLY for automatic GitHub Pages deployment.
 
+yarn install
+
 ## Variables
 export SOURCE_DATE_EPOCH=$(git log -1 --pretty=%ct)
 export docroot=$(mktemp -d)
