@@ -18,7 +18,7 @@ module.exports = {
 
             flyGradient: {
                 start: '#5825ec',
-                end: '#2c2460',
+                end: '#261b61',
             },
 
             black: colors.black,
