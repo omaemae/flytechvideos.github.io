@@ -66,9 +66,9 @@ export default class App extends React.Component {
           />
         </div>
         <div
-          css={tw`grid w-full h-full align-content[center] justify-center px-4`}
+          css={tw`grid w-full h-full content-center justify-center px-4`}
         >
-          <div css={tw`block md:flex align-items[center] mx-auto`}>
+          <div css={tw`block md:flex items-center mx-auto`}>
             <div css={tw`flex justify-center`}>
               <img
                 css={tw`h-auto width[10rem] md:width[15rem]`}
