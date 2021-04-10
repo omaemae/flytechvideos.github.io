@@ -9,6 +9,7 @@ export SOURCE_DATE_EPOCH=$(git log -1 --pretty=%ct)
 export docroot=$(mktemp -d)
 
 ## Build
+yarn run lint # Check if everything is styled correctly
 yarn run build:production
 
 ## Upload to GitHub Pages
